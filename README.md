@@ -21,40 +21,22 @@ Sistema de gestão de cálculos judiciais com cadastro de clientes, prazos proce
 
 ## 🧱 Estrutura do Projeto
 
+
+
 📁 AJCALC/ 
+
 ├── main.py # Ponto de entrada do app
+
 ├── ui_mainwindow.py # Interface gráfica principal 
+
 ├── controllers/ │ └── database.py # Funções de banco de dados SQLite
+
 ├── utils/ │ └── helpers.py # Utilitários (callbacks, etc.) 
+
 ├── logo.png # Logotipo do sistema 
+
 └── README.md # Este arquivo
 
-arquivo
-
-yaml
-Copiar
-Editar
-
----
-
-## ▶️ Como Executar
-
-1. Clone o projeto:
-```bash
-git clone https://github.com/seu-usuario/AJCALC.git
-cd AJCALC
-Instale as dependências:
-
-bash
-Copiar
-Editar
-pip install -r requirements.txt
-Execute o sistema:
-
-bash
-Copiar
-Editar
-python main.py
 ✅ Requisitos
 Python 3.8 ou superior
 
@@ -69,18 +51,7 @@ PySide6
 win10toast
 Você pode instalar tudo com:
 
-bash
-Copiar
-Editar
-pip install PySide6 win10toast
-Ou criar um requirements.txt com:
 
-nginx
-Copiar
-Editar
-PySide6
-win10toast
-💡 Observações
 As tarefas são criadas com o Agendador de Tarefas do Windows (schtasks) e não aparecem no aplicativo de "Alarmes".
 
 As notificações na bandeja aparecem ao abrir o sistema, utilizando win10toast.
